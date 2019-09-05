@@ -7,8 +7,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 /**
  * @author changyanan1
  * @version 1.0.0
- * @Description TODO
- * @date 2019年09月05日 14:23:00
  */
 public class PreventSwaggerResourcesController {
     private static final Logger log = LoggerFactory.getLogger(PreventSwaggerResourcesController.class);

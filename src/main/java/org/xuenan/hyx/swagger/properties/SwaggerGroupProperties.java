@@ -3,8 +3,6 @@ package org.xuenan.hyx.swagger.properties;
 /**
  * @author changyanan1
  * @version 1.0.0
- * @Description TODO
- * @date 2019年09月05日 12:05:00
  */
 public class SwaggerGroupProperties {
     /**

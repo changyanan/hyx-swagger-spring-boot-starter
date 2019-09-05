@@ -8,8 +8,6 @@ import java.util.Map;
 /**
  * @author changyanan1
  * @version 1.0.0
- * @Description 配置文件辅助类
- * @date 2019年09月05日 11:55:00
  */
 @ConfigurationProperties(SwaggerProperties.prefix)
 public class SwaggerProperties {

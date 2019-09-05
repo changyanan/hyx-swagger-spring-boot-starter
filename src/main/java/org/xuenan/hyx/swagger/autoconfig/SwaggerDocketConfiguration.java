@@ -25,8 +25,6 @@ import java.util.Map;
 /**
  * @author changyanan1
  * @version 1.0.0
- * @Description 自动装配
- * @date 2019年09月05日 14:44:00
  */
 @EnableSwagger2
 public class SwaggerDocketConfiguration implements BeanFactoryPostProcessor, EnvironmentAware {

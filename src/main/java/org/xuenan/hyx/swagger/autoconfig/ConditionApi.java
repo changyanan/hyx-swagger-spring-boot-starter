@@ -8,8 +8,6 @@ import org.springframework.core.type.AnnotatedTypeMetadata;
 /**
  * @author changyanan1
  * @version 1.0.0
- * @Description 条件
- * @date 2019年09月05日 14:15:00
  */
 public class ConditionApi implements Condition {
     @Override
