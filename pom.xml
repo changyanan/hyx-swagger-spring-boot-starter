@@ -50,17 +50,64 @@
             <optional>true</optional>
         </dependency>
     </dependencies>
+    <!-- 许可证信息 -->
+    <licenses>
+        <!-- Apache许可证 -->
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+    <!-- 开发者信息 -->
+    <developers>
+        <developer>
+            <name>changyanan</name>
+            <email>824046877@qq.com</email>
+            <url>https://github.com/changyanan/hyx-swagger-spring-boot-starter</url>
+        </developer>
+    </developers>
+
+    <scm>
+        <tag>master</tag>
+        <url>https://github.com/changyanan/hyx-swagger-spring-boot-starter</url>
+        <connection>scm:git:git@github:changyanan/hyx-swagger-spring-boot-starter.git</connection>
+        <developerConnection>scm:git:git@github.com:changyanan/hyx-swagger-spring-boot-starter.git</developerConnection>
+    </scm>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>sonatype-nexus-snapshots</id>
+            <name>Sonatype Nexus Snapshots</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+        </snapshotRepository>
+        <repository>
+            <id>sonatype-nexus-staging</id>
+            <name>Nexus Release Repository</name>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
 
     <build>
         <plugins>
             <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <skip>true</skip>
-                </configuration>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <version>1.6</version>
+                <executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>sign</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
-
+    <organization>
+        <url>https://github.com/changyanan</url>
+        <name>学楠</name>
+    </organization>
+    <url>https://github.com/changyanan/hyx-swagger-spring-boot-starter</url>
 </project>
