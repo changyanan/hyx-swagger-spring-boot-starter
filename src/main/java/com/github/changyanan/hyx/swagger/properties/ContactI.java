@@ -1,4 +1,4 @@
-package org.xuenan.hyx.swagger.properties;
+package com.github.changyanan.hyx.swagger.properties;
 
 import springfox.documentation.service.Contact;
 

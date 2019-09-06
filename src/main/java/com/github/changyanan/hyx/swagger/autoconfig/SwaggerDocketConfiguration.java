@@ -1,5 +1,7 @@
-package org.xuenan.hyx.swagger.autoconfig;
+package com.github.changyanan.hyx.swagger.autoconfig;
 
+import com.github.changyanan.hyx.swagger.properties.SwaggerGroupProperties;
+import com.github.changyanan.hyx.swagger.properties.SwaggerProperties;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeansException;
@@ -10,8 +12,6 @@ import org.springframework.context.EnvironmentAware;
 import org.springframework.core.env.Environment;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
-import org.xuenan.hyx.swagger.properties.SwaggerGroupProperties;
-import org.xuenan.hyx.swagger.properties.SwaggerProperties;
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;

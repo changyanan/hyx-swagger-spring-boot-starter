@@ -1,4 +1,4 @@
-package org.xuenan.hyx.swagger.autoconfig;
+package com.github.changyanan.hyx.swagger.autoconfig;
 
 import org.springframework.context.annotation.Condition;
 import org.springframework.context.annotation.ConditionContext;

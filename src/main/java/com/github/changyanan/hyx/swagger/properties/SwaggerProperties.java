@@ -1,7 +1,6 @@
-package org.xuenan.hyx.swagger.properties;
+package com.github.changyanan.hyx.swagger.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.stereotype.Component;
 
 import java.util.Map;
 

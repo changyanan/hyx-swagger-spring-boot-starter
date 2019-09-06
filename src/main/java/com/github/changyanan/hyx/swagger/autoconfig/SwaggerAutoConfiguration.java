@@ -1,4 +1,4 @@
-package org.xuenan.hyx.swagger.autoconfig;
+package com.github.changyanan.hyx.swagger.autoconfig;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
