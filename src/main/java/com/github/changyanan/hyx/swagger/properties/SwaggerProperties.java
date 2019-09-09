@@ -5,6 +5,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import java.util.Map;
 
 /**
+ *  select FROM_UNIXTIME((1288711299999+(r.`request_id`>>22))/1000),request_id from biz_info_20180722 r LIMIT 1000; 反编译
  * @author changyanan1
  * @version 1.0.0
  */
